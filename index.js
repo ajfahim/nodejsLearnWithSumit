@@ -1,4 +1,7 @@
-// console.log('Yoo');
-// console.log('ywwwwww');
-// console.log(global);
-console.log(module);
+const os = require('os');
+
+console.log(os.platform());
+console.log(os.userInfo());
+console.log(os.freemem());
+console.log(os.networkInterfaces());
+console.log(os.uptime());
